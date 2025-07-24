@@ -55,6 +55,6 @@ This project was built by learning from various platforms including:
 
 ## 📁 Live Demo
 
-- https://rifathossanbadhon.github.io/Cosmic-Cure-Hospital-System/
+- https://rifathossanbadhon.github.io/Cosmic_Cure_Hospital_System/
 ## Check
 - This version contains frontend portion only backend development is in progress and will be added soon
