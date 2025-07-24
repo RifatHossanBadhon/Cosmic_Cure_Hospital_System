@@ -1,0 +1,82 @@
+.form-page-layout  {
+    background-color: var(--card-bg);
+    border-radius: 1.5rem;
+    box-shadow: var(--card-shadow); 
+    padding: 2rem;
+    text-align: center;
+    margin-bottom: 2rem;
+    transition: background-color var(--transition-speed) ease, box-shadow var(--transition-speed) ease; /* DM */
+}
+.styled-form {
+    margin-top: 1rem;
+    max-width: 36rem;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: left;
+}
+
+.form-field-group {
+    margin-bottom: 1.5rem;
+}
+
+.styled-form label {
+    display: block;
+    font-size: 0.875rem;
+    font-weight: 500;
+    color: var(--text-color-secondary);
+    margin-bottom: 0.35rem;
+    transition: color var(--transition-speed) ease; 
+}
+
+.styled-form input[type="text"],
+.styled-form input[type="email"],
+.styled-form input[type="date"],
+.styled-form input[type="tel"],
+.styled-form input[type="password"],
+.styled-form select,
+.styled-form textarea,.styled-input {
+    margin-top: 0.25rem;
+    display: block;
+    width: 100%;
+    padding: 0.75rem 0.85rem;
+    border: 1px solid var(--border-color);
+    border-radius: 0.375rem;
+    box-shadow: 0 1px 2px 0 rgba(0,0,0,0.05);
+    font-size: 0.9rem;
+    line-height: 1.5;
+    background-color: var(--input-bg);
+    color: var(--input-text); 
+    appearance: none;
+    transition: background-color var(--transition-speed) ease, color var(--transition-speed) ease, border-color var(--transition-speed) ease; 
+}
+
+
+.styled-form select {
+    background-image: url('data:image/svg+xml;charset=US-ASCII,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%22292.4%22%20height%3D%22292.4%22%3E%3Cpath%20fill%3D%22%236b7280%22%20d%3D%22M287%2069.4a17.6%2017.6%200%200%200-13-5.4H18.4c-5%200-9.3%201.8-12.9%205.4A17.6%2017.6%200%200%200%200%2082.2c0%205%201.8%209.3%205.4%2012.9l128%20127.9c3.6%203.6%207.8%205.4%2012.8%205.4s9.2-1.8%2012.8-5.4L287%2095c3.5-3.5%205.4-7.8%205.4-12.8%200-5-1.9-9.2-5.5-12.8z%22%2F%3E%3C%2Fsvg%3E');
+    background-repeat: no-repeat;
+    background-position: right 0.7rem center;
+    background-size: 0.65em auto;
+    padding-right: 2.5rem;
+}
+/* check */
+.styled-form select::-ms-expand {
+    display: none;
+}
+
+
+.styled-form input:focus,
+.styled-form select:focus,
+.styled-form textarea:focus {
+    outline: none;
+    border-color: var(--primary-accent);
+    box-shadow: 0 0 0 3px rgba(59, 130, 246, 0.3);
+}
+
+.styled-form textarea {
+    resize: vertical;
+    min-height: 80px;
+}
+
+.login-form-max-width {
+    max-width: 24rem; 
+}

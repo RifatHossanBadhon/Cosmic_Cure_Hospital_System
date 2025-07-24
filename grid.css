@@ -1,0 +1,28 @@
+.grid-layout {
+    display: grid;
+    gap: 2rem;
+    grid-template-columns: repeat(1, minmax(0, 1fr)); 
+}
+
+
+.specialists-grid, .services-overview-grid,
+.services-detailed-grid, .doctors-detailed-grid {
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+}
+.news-updates-grid{
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+}
+.admin-stats-grid {
+    grid-template-columns: repeat(1, minmax(0, 1fr));
+    gap: 1.5rem;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+    padding: 1.5rem;
+    background-color: var(--bg-color);
+    border-radius: 1rem;
+    box-shadow: inset 0 2px 4px rgba(0,0,0,0.06);
+    transition: background-color var(--transition-speed) ease; 
+}
+.doctors-detailed-grid {
+    grid-template-columns: repeat(1, minmax(0, 1fr)); 
+}

@@ -1,0 +1,71 @@
+.site-footer-main {
+    background-color: var(--footer-bg); 
+    color: var(--footer-text); 
+    padding: 2.5rem 1.5rem 1.5rem;
+    margin-top: 3rem;
+    border-top-left-radius: 0.75rem;
+    border-top-right-radius: 0.75rem;
+    transition: background-color var(--transition-speed) ease, color var(--transition-speed) ease;
+}
+.footer-cta-buttons {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 0.75rem;
+}
+.footer-action-button {
+    font-weight: 600;
+    padding: 0.75rem 1.5rem;
+    border-radius: 9999px;
+    box-shadow: 0 4px 6px -1px rgba(0,0,0,0.1), 0 2px 4px -1px rgba(0,0,0,0.06);
+    font-size: 1rem;
+    width: auto;
+    min-width: 16rem;
+    text-align: center;
+    text-decoration: none;
+    color: #ffffff;
+    border: none;
+    cursor: pointer;
+}
+.footer-contact-style {
+    background-color: var(--primary-accent);
+}
+.footer-contact-style:hover {
+    background-color: var(--primary-accent-dark); 
+}
+
+.gradient-blue-green {
+    background-image: linear-gradient(to right, #2563eb, #10b981);
+    color: #ffffff;
+}
+.gradient-blue-green:hover {
+    background-image: linear-gradient(to right, #1d4ed8, #059669);
+}
+.footer-bottom-text-container {
+    text-align: center;
+    margin-top: 1.5rem;
+    padding-top: 1.5rem;
+    border-top: 1px solid var(--footer-border);
+    width: 100%;
+    transition: border-color var(--transition-speed) ease; 
+}
+.footer-site-tagline {
+    color: var(--footer-text-light); 
+    font-size: 0.875rem;
+    margin-bottom: 0.35rem;
+    transition: color var(--transition-speed) ease; 
+}
+
+.footer-copy-info {
+    color: var(--footer-text-lighter); 
+    font-size: 0.75rem;
+    transition: color var(--transition-speed) ease; 
+}
+.footer-grid-container {
+    max-width: 1280px;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    justify-content: center;
+    padding-bottom: 1.5rem;
+}

@@ -1,0 +1,201 @@
+.button-profile {
+    margin-top: 1rem;
+    background-color: var(--primary-accent); 
+    color: #ffffff;
+    font-size: 0.875rem;
+    padding: 0.5rem 1rem;
+    border-radius: 9999px;
+    transition: background-color 0.3s ease;
+    border: none;
+    cursor: pointer;
+}
+.button-profile:hover {
+    background-color: var(--primary-accent-dark); 
+}
+.button-primary {
+    font-weight: 700;
+    padding: 0.75rem 2rem;
+    border-radius: 9999px;
+    box-shadow: 0 4px 6px -1px rgba(0,0,0,0.1), 0 2px 4px -1px rgba(0,0,0,0.06);
+    font-size: 1.25rem;
+    border: none;
+    cursor: pointer;
+    color: #ffffff;
+}
+.button-secondary {
+    background-color: var(--button-secondary-bg);
+    color: var(--button-secondary-text); 
+    font-weight: 700;
+    padding: 0.85rem 2rem;
+    border-radius: 100px;
+    box-shadow: 0 4px 6px -1px rgba(0,0,0,0.1), 0 2px 4px -1px rgba(0,0,0,0.06);
+    font-size: 1.125rem;
+    margin-top: 1.5rem;
+    border: none;
+    cursor: pointer;
+    display: inline-block;
+    width: auto;
+    transition: background-color var(--transition-speed) ease, color var(--transition-speed) ease; 
+}
+.button-secondary:hover {
+    background-color: var(--button-secondary-hover-bg); 
+}
+.page-level-button {
+    margin-top: 3rem;
+}
+.doctors-page-button {
+    background-color: var(--primary-accent); 
+}
+.hero-cta-button {
+    background: linear-gradient(135deg, #1cc9b4, #2563eb);
+    color: white;
+    font-weight: 800;
+    padding: 0.75rem 2rem;
+    border-radius: 9999px;
+    font-size: 1.15rem;
+    border: none;
+    cursor: pointer;
+    box-shadow: 0 8px 20px rgba(37, 99, 235, 0.3);
+    transition: all 0.3s ease;
+    position: relative;
+    top: 50px;
+}
+
+.hero-cta-button:hover {
+    background: linear-gradient(135deg, #2563eb, #1cc9b4);
+    transform: scale(1.05) translateY(-3px);
+    box-shadow: 0 12px 24px rgba(28, 201, 180, 0.35);
+}
+
+.form-button-submit {
+    width: 100%;
+    font-weight: 700;
+    padding: 0.85rem 2rem;
+    border-radius: 100px;
+    box-shadow: 0 4px 6px -1px rgba(0,0,0,0.1), 0 2px 4px -1px rgba(0,0,0,0.06);
+    font-size: 1.125rem;
+    margin-top: 1.75rem;
+    border: none;
+    cursor: pointer;
+    color: #ffffff;
+}
+.about-button-container {
+    text-align: center; 
+    margin-top: 2rem; 
+}
+.about-story-button {
+    background-color: #10b981;
+    color: #ffffff;
+}
+.about-story-button:hover {
+    background-color: #059669;
+}
+.page-action-button {
+    font-weight: 700;
+    padding: 0.75rem 2rem;
+    border-radius: 9999px;
+    box-shadow: 0 4px 6px -1px rgba(0,0,0,0.1), 0 2px 4px -1px rgba(0,0,0,0.06);
+    font-size: 1.25rem;
+    border: none;
+    cursor: pointer;
+    color: #ffffff;
+    display: inline-block;
+}
+.animated-button {
+    transition: all 0.3s ease;
+}
+.animated-button:hover {
+    transform: translateY(-3px);
+    box-shadow: 0 8px 15px rgba(0, 0, 0, 0.2);
+}
+.chat-send-button {
+    background-color: var(--primary-accent);
+    color: white;
+    cursor: pointer;
+    transition: background-color 0.2s;
+    position: relative;
+    bottom: 14px;
+    text-overflow: ellipsis;
+
+}
+.chat-send-button:hover {
+    background-color: var(--primary-accent-dark); 
+}
+.emergency-button {
+    background-color: #dc2626;
+    color: white;
+    font-size: 5vw;
+    padding: 7vw 7vw;
+    font-size: clamp(1.5rem, 5vw, 4rem);
+    padding: clamp(2rem, 7vw, 6rem);
+    font-weight: 800;
+    border-radius: 10000px;
+    box-shadow: 0 8px 15px rgba(239, 68, 68, 0.4);
+    margin-top: 1rem;
+    margin-left: auto;
+    margin-right: auto;
+    aspect-ratio: 1 / 1;
+    animation: pulseRed 1.5s infinite;
+    cursor: pointer;
+    border: none;
+}
+.emergency-link-button {
+    background-color: #dc2626;
+    color: white;
+    font-weight: 700;
+    padding: 0.75rem 2rem;
+    border-radius: 9999px;
+    box-shadow: 0 4px 6px -1px rgba(0,0,0,0.1), 0 2px 4px -1px rgba(0,0,0,0.06);
+    font-size: 1.25rem;
+    margin-top: 2rem;
+    display: inline-block;
+}
+.theme-toggle-button {
+   
+    background: none;
+    border: none;
+    cursor: pointer;
+    padding: 0rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: background-color var(--transition-speed) ease, border-color var(--transition-speed) ease;
+    margin-left: 1rem;
+    overflow: hidden;
+    position: relative;
+    height: 2rem;
+    width: 2rem;
+}
+.theme-toggle-button:focus{
+    outline: none;
+}
+
+.theme-toggle-button:hover {
+    transform: scale(1.15);
+}
+.theme-icon {
+    width: 2rem;
+    height: 2rem;
+    color: var(--text-color-primary);
+    position: absolute;
+    transition: transform 0.4s ease, opacity 0.4s ease;
+}
+
+.theme-icon.hidden {
+    transform: scale(0) rotate(-90deg);
+    opacity: 0;
+}
+
+body.dark-mode .theme-icon-sun {
+    transform: scale(0) rotate(90deg);
+    opacity: 0;
+}
+
+body.dark-mode .theme-icon-moon {
+    transform: scale(1) rotate(0deg);
+    opacity: 1;
+}
+
+.hidden {
+    display: none;
+}
